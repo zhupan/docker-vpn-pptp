@@ -48,8 +48,11 @@ docker run -d --privileged --net=host -v {local_path_to_chap_secrets}:/etc/ppp/c
 https://docs.docker.com/reference/run/#mode-host
 
 install docker
+````
 sudo yum install docker      
 sudo service docker start   
-
+````
 pull vpn-pptp
+````
 sudo docker pull mobtitude/vpn-pptp
+````
