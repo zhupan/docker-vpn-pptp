@@ -47,3 +47,9 @@ docker run -d --privileged --net=host -v {local_path_to_chap_secrets}:/etc/ppp/c
 **Note:** Before starting container in `--net=host` mode, please read how networking in `host` mode works in Docker:
 https://docs.docker.com/reference/run/#mode-host
 
+install docker
+sudo yum install docker      
+sudo service docker start   
+
+pull vpn-pptp
+sudo docker pull mobtitude/vpn-pptp
